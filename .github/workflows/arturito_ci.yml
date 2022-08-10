@@ -43,7 +43,7 @@ jobs:
     - name: Run tests
       run: |
         #fail on purpose, replace me!
-        run npm test
+        npm run test:complain
 
     lint-job:
       runs-on: ubuntu-latest
